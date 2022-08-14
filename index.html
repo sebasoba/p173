@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="​https://aframe.io/releases/0.6.0/aframe.min.js​"> </script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css integrity="
+        sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
+        <link href="./style.css" rel="stylesheet"/>
+        <script src="./js/addButtons.js"></script>
+        <script src="./js/markerhandler.js"></script>
+        <script src="./js/addMarkers.js"></script>
+        <script src="./js/gesturehandler.js"></script>
+
+        <script>
+            var firebaseConfig = {
+        apiKey: "AIzaSyBePyK4vqgkW4UyPh0kYJAV8PP89-WqKOk",
+    authDomain: "p169-171.firebaseapp.com",
+    databaseURL: "https://p169-171-default-rtdb.firebaseio.com",
+    projectId: "p169-171",
+    storageBucket: "p169-171.appspot.com",
+    messagingSenderId: "261397164163",
+    appId: "1:261397164163:web:d4761dd199d2918e75ebb6"
+      };
+        </script>
+
+       
+        
+    </head>
+    <body>
+        <a-marker id="crane-marker",type="pattern",URL="assets/T01/pattern-crane.patt",cursor="rayOrigin:mouse">
+
+        </a-marker>
+        
+        
+    </body>
+
+    
+</html>
